@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Cabin:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --theme-green: #5b8e7d;
+    --theme-light-green: #8cb369;
+    --theme-peach: #f4a259;
+    --theme-yellow: #f4e285;
+    --theme-rose: #bc4b51;
+    --light-color: #fffaf0; /* A creamy white */
+    --dark-color: #4a4a4a;
+    --heading-font: 'Gochi Hand', cursive;
+    --body-font: 'Cabin', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    background-image: url('../assets/images/garden_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--dark-color);
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.storybook-container {
+    background-image: url('../assets/images/paper_texture.jpg');
+    background-size: cover;
+    max-width: 1000px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 15px solid var(--theme-green);
+    position: relative;
+    min-height: 80vh;
+}
+
+/* --- Whimsical Header & Nav --- */
+.site-header {
+    text-align: center;
+    border-bottom: 2px dashed var(--theme-light-green);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.site-logo {
+    font-family: var(--heading-font);
+    font-size: 4rem;
+    color: var(--theme-rose);
+    text-shadow: 2px 2px var(--theme-yellow);
+    margin-bottom: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--theme-green);
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    background-color: var(--theme-yellow);
+    color: var(--theme-rose);
+    transform: rotate(5deg) scale(1.1);
+}
+
+/* --- Homepage Fun --- */
+.home-welcome {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profile-pic-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px dotted var(--theme-light-green);
+    padding: 5px;
+    animation: gentle-bob 4s ease-in-out infinite;
+}
+
+@keyframes gentle-bob {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+.welcome-text h1 {
+    font-family: var(--heading-font);
+    font-size: 3.5rem;
+    color: var(--theme-green);
+}
+
+.welcome-text .subtitle {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    color: var(--theme-peach);
+    margin-bottom: 1rem;
+}
+
+.floral-divider {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.floral-divider img {
+    width: 200px;
+    opacity: 0.7;
+}
+
+/* --- Content Pages --- */
+.page-title {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    color: var(--theme-rose);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.fun-card {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px dashed var(--theme-light-green);
+    transition: all 0.3s ease;
+}
+
+.fun-card:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.fun-card h3 {
+    font-family: var(--heading-font);
+    color: var(--theme-green);
+    font-size: 1.8rem;
+}
+
+.fun-card h2 {
+    font-family: var(--heading-font);
+    color: var(--theme-rose);
+    font-size: 2rem;
+}
+
+.fun-card ul {
+    padding-left: 20px;
+}
+.fun-card ul li {
+    list-style-type: '🌿';
+    padding-left: 10px;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Certifications Page Specific --- */
+.cert-card {
+    text-align: center;
+}
+
+.view-badge-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--theme-peach);
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.view-badge-btn:hover {
+    background-color: var(--theme-rose);
+    transform: scale(1.1);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-style: italic;
+    color: var(--theme-green);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    body { padding: 1rem; }
+    .storybook-container { padding: 1.5rem; }
+    
+    .main-nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .home-welcome {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* --- Contact Section --- */
+.contact-card {
+    background: #fffaf0; /* A creamy, paper-like color */
+    border: 2px dashed var(--theme-rose);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.contact-card h2 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    color: var(--theme-rose);
+    margin-bottom: 1.5rem;
+}
+
+.contact-card p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-card .social-links a {
+    color: var(--theme-green);
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-card .social-links a:hover {
+    color: var(--theme-peach);
+    transform: scale(1.2) rotate(10deg);
+}
