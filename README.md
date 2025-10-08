@@ -1,6 +1,6 @@
 <div align="center">
 
-![A beautiful banner image for the portfolio website. It says "Whimsical Garden Portfolio" in an elegant, cursive script, set against a soft, floral, watercolor background that matches the site's theme.](https://static.vecteezy.com/system/resources/previews/031/548/652/large_2x/a-whimsical-banner-design-portraying-a-garden-scene-with-playful-illustrations-of-flowers-butterflies-and-bees-adding-a-touch-of-joy-and-lightheartedness-generative-ai-photo.jpeg)
+![A beautiful banner image for the portfolio website. It says "Whimsical Garden Portfolio" in an elegant, cursive script, set against a soft, floral, watercolor background that matches the site's theme.]("C:\Users\User\Downloads\a-whimsical-banner-design-portraying-a-garden-scene-with-playful-illustrations-of-flowers-butterflies-and-bees-adding-a-touch-of-joy-and-lightheartedness-generative-ai-photo.jpeg")
 
 </div>
 
