@@ -35,11 +35,44 @@ Here is a quick look at the whimsical design and interactive elements in action,
 
 ### ✨ Key Features
 
-* **🌸 Whimsical "Storybook" Design:** The entire site is presented within a container styled to look like a page from a vintage storybook, complete with a paper-textured background.
-* **🎨 Spring Garden Theme:** A consistent color palette, custom fonts, and floral imagery create a cohesive and charming "spring garden tea party" aesthetic.
-* **🎉 Interactive Elements:** Subtle animations, such as a gentle bobbing effect on the profile picture and a typing animation on the homepage title, add a layer of interactivity and fun.
-* **📱 Responsive Layout:** The design adapts seamlessly to all screen sizes, from mobile phones to desktop monitors, ensuring a great user experience on any device.
-* **🚀 Deployed via GitHub Pages:** The website is hosted for free and deployed directly from this repository using GitHub Pages.
+### 🌿 Exploring the Portfolio Sections
+
+This portfolio is organized into several key pages, each detailing a different aspect of my professional and academic journey.
+
+#### **1. Homepage**
+The main landing page that introduces the "storybook" theme, my professional summary, and key interactive elements. It also provides quick navigation to other important sections and contact information.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/)
+* [**Source Code ➡️**](index.html)
+
+#### **2. Education**
+This section outlines my academic background, including my current Bachelor of Science program at FEU Institute of Technology and my high school achievements.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/education.html)
+* [**Source Code ➡️**](education.html)
+
+#### **3. Experience**
+A detailed look at my professional history, separated into two main categories: relevant work experience and my leadership roles in extracurricular organizations.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/experience.html)
+* [**Source Code ➡️**](experience.html)
+
+#### **4. Skills**
+A comprehensive overview of my technical abilities, categorized into Languages, Developer Tools, Technologies/Frameworks, and Areas of Expertise for clarity.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/skills.html)
+* [**Source Code ➡️**](skills.html)
+
+#### **5. Certifications**
+This page showcases my professional certifications and training, complete with "View Badge" buttons that link to the official credentials where applicable.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/certifications.html)
+* [**Source Code ➡️**](certifications.html)
+
+#### **6. Advocacy**
+Details my passion for community involvement and volunteer work, highlighting my roles in organizations like Pawssion Project and Layag Caloocan.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/advocacy.html)
+* [**Source Code ➡️**](advocacy.html)
+
+#### **7. Portfolio**
+A gallery of my key projects, from AI financial planners to AgriTech solutions. Each project card provides a concise summary of the work and the technologies used.
+* [**Live Page ➡️**](https://gabel-05.github.io/professional-profile-guennevere-rito/portfolio.html)
+* [**Source Code ➡️**](portfolio.html)
 
 ---
 
