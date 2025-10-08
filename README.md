@@ -8,7 +8,7 @@
 
 <div align="center">
 
-# A Professional Portfolio for Guennevere Rito
+# A Whimsical Garden Portfolio
 
 *A complete redesign of a standard portfolio, transformed into a whimsical, interactive "spring garden tea party" themed website.*
 
