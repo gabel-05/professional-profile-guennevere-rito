@@ -1,6 +1,6 @@
 <div align="center">
 
-![A beautiful banner image for the portfolio website. It says "Whimsical Garden Portfolio" in an elegant, cursive script, set against a soft, floral, watercolor background that matches the site's theme.](assets\images\readme-banner.jpeg)
+![Portfolio Banner](./assets/images/readme-banner.jpeg)
 
 </div>
 
